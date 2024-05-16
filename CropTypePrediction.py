@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import RobustScaler
 from sklearn.preprocessing import LabelEncoder
 
-df = pd.read_csv("soil_measures.csv")
+df = pd.read_csv("/home/vscode/CropTypePrediction/soil_measures.csv")
 
 X = df.drop("crop", axis=1).values 
 y = df["crop"].values
@@ -22,7 +22,7 @@ label_encoder = LabelEncoder()
 y_train = label_encoder.fit_transform(y_train)
 y_test = label_encoder.transform(y_test)
 
-loaded_xgb_model = joblib.load("best_xgb_model.joblib")
+loaded_xgb_model = joblib.load("/home/vscode/CropTypePrediction/best_xgb_model.joblib")
 
 def predict_crop(N, P, K, pH):
     test_data = np.array([N, P, K, pH]).reshape(1, -1)
