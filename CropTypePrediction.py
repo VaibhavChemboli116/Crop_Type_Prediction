@@ -1,8 +1,5 @@
 import streamlit as st
 import numpy as np
-import subprocess
-import sys
-subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
 import joblib
 import pandas as pd
 from sklearn.model_selection import train_test_split
