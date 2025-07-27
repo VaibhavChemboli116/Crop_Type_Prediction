@@ -9,27 +9,27 @@ The goal of this project is to predict the type of crop based on several input f
 ## Algorithms Used
 
 - **Supervised Learning Algorithms**
-  KNN
-  Logreg OVR
-  Logreg Multinomial
-  Decision Tree
-  Random Forest
-  Support Vector Classifier
-  Gaussian Naive Bayes
-  XGBoost
-  AdaBoost
-  Bagging Algorithms
+  KNN,
+  Logreg OVR,
+  Logreg Multinomial,
+  Decision Tree,
+  Random Forest,
+  Support Vector Classifier,
+  Gaussian Naive Bayes,
+  XGBoost,
+  AdaBoost,
+  Bagging Algorithms,
 
 - **Unsupervised Learning Algorithms**
-  KMeans
-  DBSCAN
-  GMM
-  Agglomerative Clustering
+  KMeans,
+  DBSCAN,
+  GMM,
+  Agglomerative Clustering,
   
 - **Neural Networks**
-  ANN
-  ANN with interactions
-  ANN with t-SNE Embeddings as features
+  ANN,
+  ANN with interactions,
+  ANN with t-SNE Embeddings as features,
 
 ## Results
 The XGBoost Algorithm overperformed all the other algorithms with a train accuracy of 92% and test accuracy of 83%.
