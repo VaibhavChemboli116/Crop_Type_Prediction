@@ -1,4 +1,4 @@
-# CropTypePrediction
+# CropTypePrediction Project
 
 Welcome to the Crop Type Prediction project! In this project, we employed various machine learning algorithms and deep learning architectures to predict crop types based on given features.
 
